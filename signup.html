@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== Custom CSS StyleSheet ============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <!--============= Google Fonts MontSerrat ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <section class="form__section">
+      <div class="container form__section-container">
+        <h2>Sign Up</h2>
+        <div class="alert__message error">
+          <p>
+            <i class="fas fa-exclamation-circle"></i>
+            This is an error message
+          </p>
+        </div>
+        <form action="" enctype="multipart/form-data">
+          <div class="flex-input">
+            <div class="form__control">
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="form__control">
+              <input
+                type="text"
+                name="lasttName"
+                id="lastName"
+                placeholder="Last Name"
+              />
+            </div>
+          </div>
+
+          <div class="flex-input">
+            <div class="form__control">
+              <input
+                type="text"
+                name="userName"
+                id="userName"
+                placeholder="Username"
+              />
+            </div>
+
+            <div class="form__control">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+          </div>
+
+          <div class="flex-input">
+            <div class="form__control">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+
+            <div class="form__control">
+              <input
+                type="password"
+                name="confirmpassword"
+                id="confirmpassword"
+                placeholder="Confirm Password"
+              />
+            </div>
+          </div>
+
+          <div class="form__control">
+            <label for="avatar">User Avatar</label>
+            <input type="file" id="avatar" name="avatar" />
+          </div>
+
+          <div class="form__control">
+            <label class="container-x">
+              <input checked="checked" type="checkbox" />
+              <div class="checkmark"></div>
+              <span>
+                Agree to
+                <a href="#" style="color: #047aed";>terms & conditions</a>
+              </span>
+            </label>
+          </div>
+          <div class="center-items">
+            <button type="submit" class="btn btn-edit" name="submit">
+              <span class="text">Sign Up</span>
+            </button>
+            <small class="small">
+              Already have an account?
+              <a href="signin.html">Sign In</a>
+            </small>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer_container">
+      <div class="copyright__items">
+        <small>
+          <i class="fas fa-globe"></i>
+          &nbsp;Englsih(US)&nbsp; Copyright&copy; - 2022 Developed by
+          <span>Sixtus.Developer</span>
+          | All rights Reserves | Tearms & Conditions.
+        </small>
+      </div>
+    </footer>
+  </body>
+</html>

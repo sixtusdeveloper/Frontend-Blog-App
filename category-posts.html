@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== Custom CSS StyleSheet ============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <!--============= Google Fonts MontSerrat ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>FullStack Multi Page Blog Application</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html" class="nav__logo">BlogFix</a>
+        <ul class="nav__items">
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <!-- <li><a href="signin.html">Signin</a></li> -->
+          <li class="nav__profile">
+            <div class="avatar">
+              <img src="./images/avatar1.jpg" alt="Avatar image one" />
+            </div>
+            <ul>
+              <li><a href="dashboard.html">Dashboard</a></li>
+              <li><a href="logout.html">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <button id="open__nav-btn"><i class="fas fa-bars"></i></button>
+        <button id="close__nav-btn"><i class="fas fa-multiply"></i></button>
+      </div>
+    </nav>
+
+    <!--==================== End of nav =========================-->
+      
+    <header class="category__title">
+      <h2>Category Title</h2>
+    </header>
+    <!--===========
+      End of Category Title 
+    =============-->
+    
+
+    <section class="posts">
+      <div class="container post__container">
+        <!-- First post -->
+        <article class="post">
+          <div class="post__thumbnail">
+            <img src="./images/blog2.jpg" alt="Blog two image" />
+          </div>
+          <div class="post__info">
+            <a href="category-posts.html" class="category__button">Wild Life</a>
+            <h3 class="post__title">
+              <a href="post.html">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                quod.
+              </a>
+            </h3>
+            <p class="post__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nemo eaque quaerat, nulla sunt inventore ex repellat provident,
+              necessitatibus ducimus.
+            </p>
+            <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar3.jpg" alt="Avatar three image" />
+              </div>
+              <div class="post__author-info">
+                <h5>By: Johnson Anderson</h5>
+                <small>November 11, 2022 - 2:55</small>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Second post -->
+        <article class="post">
+          <div class="post__thumbnail">
+            <img src="./images/blog3.jpg" alt="Blog three image" />
+          </div>
+          <div class="post__info">
+            <a href="category-posts.html" class="category__button">Wild Life</a>
+            <h3 class="post__title">
+              <a href="post.html">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                quod.
+              </a>
+            </h3>
+            <p class="post__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nemo eaque quaerat, nulla sunt inventore ex repellat provident,
+              necessitatibus ducimus.
+            </p>
+            <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar4.jpg" alt="Avatar four image" />
+              </div>
+              <div class="post__author-info">
+                <h5>By: Johnson Anderson</h5>
+                <small>November 11, 2022 - 2:55</small>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Third post -->
+        <article class="post">
+          <div class="post__thumbnail">
+            <img src="./images/blog4.jpg" alt="Blog four image" />
+          </div>
+          <div class="post__info">
+            <a href="category-posts.html" class="category__button">Wild Life</a>
+            <h3 class="post__title">
+              <a href="post.html">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                quod.
+              </a>
+            </h3>
+            <p class="post__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nemo eaque quaerat, nulla sunt inventore ex repellat provident,
+              necessitatibus ducimus.
+            </p>
+            <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar5.jpg" alt="Avatar five image" />
+              </div>
+              <div class="post__author-info">
+                <h5>By: Johnson Anderson</h5>
+                <small>November 11, 2022 - 2:55</small>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Fourth post -->
+        <article class="post">
+          <div class="post__thumbnail">
+            <img src="./images/blog5.jpg" alt="Blog five image" />
+          </div>
+          <div class="post__info">
+            <a href="category-posts.html" class="category__button">Wild Life</a>
+            <h3 class="post__title">
+              <a href="post.html">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                quod.
+              </a>
+            </h3>
+            <p class="post__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nemo eaque quaerat, nulla sunt inventore ex repellat provident,
+              necessitatibus ducimus.
+            </p>
+            <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar6.jpg" alt="Avatar six image" />
+              </div>
+              <div class="post__author-info">
+                <h5>By: Johnson Anderson</h5>
+                <small>November 11, 2022 - 2:55</small>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Sixth post -->
+        <article class="post">
+          <div class="post__thumbnail">
+            <img src="./images/blog6.jpg" alt="Blog six image" />
+          </div>
+          <div class="post__info">
+            <a href="category-posts.html" class="category__button">Wild Life</a>
+            <h3 class="post__title">
+              <a href="post.html">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                quod.
+              </a>
+            </h3>
+            <p class="post__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nemo eaque quaerat, nulla sunt inventore ex repellat provident,
+              necessitatibus ducimus.
+            </p>
+            <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar7.jpg" alt="Avatar seven image" />
+              </div>
+              <div class="post__author-info">
+                <h5>By: Johnson Anderson</h5>
+                <small>November 11, 2022 - 2:55</small>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Seventh Post -->
+        <article class="post">
+          <div class="post__thumbnail">
+            <img src="./images/blog7.jpg" alt="Blog seven image" />
+          </div>
+          <div class="post__info">
+            <a href="category-posts.html" class="category__button">Wild Life</a>
+            <h3 class="post__title">
+              <a href="post.html">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                quod.
+              </a>
+            </h3>
+            <p class="post__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nemo eaque quaerat, nulla sunt inventore ex repellat provident,
+              necessitatibus ducimus.
+            </p>
+            <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar8.jpg" alt="Avatar eight image" />
+              </div>
+              <div class="post__author-info">
+                <h5>By: Johnson Anderson</h5>
+                <small>November 11, 2022 - 2:55</small>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Eight post -->
+        <article class="post">
+          <div class="post__thumbnail">
+            <img src="./images/blog8.jpg" alt="Blog eight image" />
+          </div>
+          <div class="post__info">
+            <a href="category-posts.html" class="category__button">Wild Life</a>
+            <h3 class="post__title">
+              <a href="post.html">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                quod.
+              </a>
+            </h3>
+            <p class="post__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nemo eaque quaerat, nulla sunt inventore ex repellat provident,
+              necessitatibus ducimus.
+            </p>
+            <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar9.jpg" alt="Avatar nine image" />
+              </div>
+              <div class="post__author-info">
+                <h5>By: Johnson Anderson</h5>
+                <small>November 11, 2022 - 2:55</small>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Nineth post -->
+        <article class="post">
+          <div class="post__thumbnail">
+            <img src="./images/blog9.jpg" alt="Blog nine image" />
+          </div>
+          <div class="post__info">
+            <a href="category-posts.html" class="category__button">Wild Life</a>
+            <h3 class="post__title">
+              <a href="post.html">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                quod.
+              </a>
+            </h3>
+            <p class="post__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nemo eaque quaerat, nulla sunt inventore ex repellat provident,
+              necessitatibus ducimus.
+            </p>
+            <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar10.jpg" alt="Avatar ten image" />
+              </div>
+              <div class="post__author-info">
+                <h5>By: Johnson Anderson</h5>
+                <small>November 11, 2022 - 2:55</small>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post__thumbnail">
+            <img src="./images/blog2.jpg" alt="Blog two image" />
+          </div>
+          <div class="post__info">
+            <a href="category-posts.html" class="category__button">Wild Life</a>
+            <h3 class="post__title">
+              <a href="post.html">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
+                quod.
+              </a>
+            </h3>
+            <p class="post__body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              nemo eaque quaerat, nulla sunt inventore ex repellat provident,
+              necessitatibus ducimus.
+            </p>
+            <div class="post__author">
+              <div class="post__author-avatar">
+                <img src="./images/avatar3.jpg" alt="Avatar three image" />
+              </div>
+              <div class="post__author-info">
+                <h5>By: Johnson Anderson</h5>
+                <small>November 11, 2022 - 2:55</small>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--==========================
+       End of post 
+      =================-->
+    <section class="category__buttons">
+      <div class="container category__buttons-container">
+        <a href="" class="category__button">Art</a>
+        <a href="" class="category__button">Wild Life</a>
+        <a href="" class="category__button">Travel</a>
+        <a href="" class="category__button">Science & Technology</a>
+        <a href="" class="category__button">Food</a>
+        <a href="" class="category__button">Music</a>
+      </div>
+    </section>
+
+    <!--=========================
+       End of category buttons 
+      ===================-->
+
+    <footer>
+      <div class="footer__socials">
+        <a href="https://www.facebook.com/sixtusushrey" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/sixtusUshahemba" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.instagram.com/sixtusushrey" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sixtusushrey" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.github.com/Sixtus-Developer" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.pinterest.com/sixtusushrey/" target="_blank">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </div>
+
+      <div class="container footer__container">
+        <article>
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="">Art</a></li>
+            <li><a href="">Wild Life</a></li>
+            <li><a href="">Travel</a></li>
+            <li><a href="">Science & Technology</a></li>
+            <li><a href="">Music</a></li>
+            <li><a href="">Food</a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="">Online Support</a></li>
+            <li><a href="">Call Numbers</a></li>
+            <li><a href="">Social Support</a></li>
+            <li><a href="">Emails</a></li>
+            <li><a href="">Location</a></li>
+            <li><a href="">Sports</a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>Blog</h4>
+          <ul>
+            <li><a href="">Safety</a></li>
+            <li><a href="">Repair</a></li>
+            <li><a href="">Recent</a></li>
+            <li><a href="">Science & Technology</a></li>
+            <li><a href="">Popular</a></li>
+            <li><a href="">Categories</a></li>
+          </ul>
+        </article>
+        <article>
+          <h4>PermaLinks</h4>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Food</a></li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="footer__copyright">
+        <small><i class="fas fa-globe"></i>&nbsp;Englsih(US)&nbsp;
+          Copyright&copy; - 2022 Developed by
+          <span>Sixtus.Developer</span>
+          | All rights Reserves | Tearms & Conditions.
+        </small>
+      </div>
+    </footer>
+
+    <script src="./JS/App.js"></script>
+  </body>
+</html>
